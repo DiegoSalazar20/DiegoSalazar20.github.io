@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Veterinaria Turrialba</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    </head>
+
+    <body>
+        <header>
+            <h1> Veterinaria Turrialba </h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Inicio</a> </li>
+                    <li> <a href="inicioSesion.html">Inicio de sesion</a> </li>
+                    <li> <a href="animacion.html">Animacion</a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="contenido">
+                <div class="formulario">
+                    <h2>Iniciar sesion</h2>
+                    <form id="formulario" method="post">
+                        <div class="usuarios">
+                            <label>Nombre:</label>
+                            <input id="nombre" type="text" required>
+                        </div>
+                        <div class="usuarios">
+                            <label>Cedula:</label>
+                            <input id="cedula" type="number" required>
+                        </div>
+                        <div class="usuarios">
+                            <label>Fecha de nacimiento:</label>
+                            <input id="nacimiento" type="date" required>
+                        </div>
+                        <div class="usuarios">
+                            <label>Correo electronico:</label>
+                            <input id="correo" type="email" required>
+                        </div>
+                        <div class="usuarios">
+                            <label>Genero:</label>
+                            <select  id="genero" name="genero">
+                                <option selected>Seleccione el genero</option>
+                                <option value="Hombre">Hombre</option>
+                                <option value="Mujer">Mujer</option>
+                            </select>
+                        </div>
+                        <div class="usuarios">
+                            <label>Contraseña:</label>
+                            <input id="pass1" type="password" required>
+                        </div>
+                        <div class="usuarios">
+                            <label>Repita su contraseña:</label>
+                            <input id="pass2" type="password" required>
+                        </div>
+                        <input id="botonIngresar" type="submit" value="Registrar">
+                    </form>
+                </div>
+                
+            </div>
+        </main>
+
+        <footer>
+            <p>Siguenos en redes sociales</p>
+            <div>
+                <a href="">Facebook</a>
+            </div>
+            <p>Derechos de autor 2024</p>
+        </footer>
+
+    </body>
+
+
+</html>
