@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicharrones de queso</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital@1&family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="logos">
+            <img src="assets/pepe.png" alt="Logo de el pepe">
+            <img src="assets/buche.png" alt="Logo de el buche.com">
+        </div>
+        <div class="menu-icon" onclick="abrirMenu()">
+            <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" alt="Menú">
+        </div>
+    </header>
+
+    <div class="main-content">
+
+
+
+        <section id="inicio">
+            <h1 class="animate__animated animate__fadeInDown">Chicharrones de<br>queso</h1>
+            <img class="descripcion-imagen invisible" data-animate="animate__fadeInUp"
+                src="assets/PlatoConChicharronesDeQueso.png"
+                alt="Muchos chicharrones de queso amontonados sobre un plato de color blanco.">
+
+            <div class="botones-navegacion">
+                <a href="#descripcion"><button class="boton-flecha">&#8595;</button></a>
+            </div>
+        </section>
+
+
+        <section id="descripcion">
+            <h1 class="invisible" data-animate="animate__fadeInDown">Descripcion</h1>
+            <p class="descripcion-texto invisible" data-animate="animate__fadeInDown">
+                Esta receta consiste en cubos de queso, de tamaño mediano, que se fríen junto a una mezcla de tapa de
+                dulce, leche y sal, esta mezcla se hace similar a una miel que se adhiere a los cubos de queso.
+            </p>
+            <img class="descripcion-imagen invisible" data-animate="animate__fadeInUp" src="assets/Descripcion.png"
+                alt="Ingredientes">
+
+            <div class="botones-navegacion">
+                <a href="#inicio"><button class="boton-flecha-subir">&#8593;</button></a>
+                <a href="#ingredientes"><button class="boton-flecha">&#8595;</button></a>
+            </div>
+        </section>
+
+
+        <section id="ingredientes">
+            <h1 class="invisible" data-animate="animate__fadeInDown">Ingredientes</h1>
+            <p class="ingredientes-texto invisible" data-animate="animate__fadeInDown">
+                2 tazas de tapa de dulce ralladas <br>
+                1/2 kg de queso semi duro picado en cuadritos<br>
+                1 pizca de sal<br>
+                1 taza de leche
+                1 plátano maduro picado en trozos<br>
+                Palitos de canela al gusto
+            </p>
+            <img class="ingredientes-imagen invisible" data-animate="animate__fadeInUp" src="assets/Ingredientes.png"
+                alt="Ingredientes">
+
+            <div class="botones-navegacion">
+                <a href="#descripcion"><button class="boton-flecha-subir">&#8593;</button></a>
+                <a href="#preparacion"><button class="boton-flecha">&#8595;</button></a>
+            </div>
+        </section>
+
+        <section id="preparacion">
+            <h1 class="paso invisible" data-animate="animate__fadeInLeft">Paso 1</h1>
+            <h2 class="subtitulo invisible" data-animate="animate__fadeInRight">Agregar los ingredientes</h2>
+            <img class="paso-imagen invisible" data-animate="animate__fadeInUp" src="assets/paso1.png"
+                alt="Olla con tapa dulce, leche y canela al fuego.">
+            <p class="paso-texto invisible" data-animate="animate__fadeInUp">
+                Coloque la tapa dulce, la leche, sal y la canela al fuego
+            </p>
+
+            <br>
+            <br>
+
+            <div class="botones-navegacion">
+                <a href="#ingredientes"><button class="boton-flecha-subir">&#8593;</button></a>
+                <a href="#paso2"><button class="boton-flecha">&#8595;</button></a>
+            </div>
+        </section>
+
+        <section id="paso2">
+            <h1 class="paso2 invisible" data-animate="animate__fadeInRight">Paso 2</h1>
+            <h2 class="subtituloPaso2 invisible" data-animate="animate__fadeInLeft">Agregar el queso</h2>
+            <img class="paso-imagen invisible" data-animate="animate__fadeInUp" src="assets/paso2.png"
+                alt="Olla con trozos de queso sobre tapa dulce derretida">
+            <p class="paso-texto invisible" data-animate="animate__fadeInUp">
+                Deje que los ingredientes hiervan y adhiera el queso
+            </p>
+
+            <div class="botones-navegacion">
+                <a href="#preparacion"><button class="boton-flecha-subir">&#8593;</button></a>
+                <a href="#paso3"><button class="boton-flecha">&#8595;</button></a>
+            </div>
+        </section>
+
+        <section id="paso3">
+            <h1 class="paso3 invisible" data-animate="animate__fadeInLeft">Paso 3</h1>
+            <h2 class="subtituloPaso3 invisible" data-animate="animate__fadeInRight">Agregar el platano</h2>
+            <img class="paso-imagen invisible" data-animate="animate__fadeInUp" src="assets/paso3.png"
+                alt="Olla con trozos de queso sobre tapa dulce derretida">
+            <p class="paso-texto invisible" data-animate="animate__fadeInUp">
+                Cuando se empiece a consumir la leche, añada el plátano
+            </p>
+
+            <div class="botones-navegacion">
+                <a href="#paso2"><button class="boton-flecha-subir">&#8593;</button></a>
+                <a href="#paso4"><button class="boton-flecha">&#8595;</button></a>
+            </div>
+        </section>
+
+        <section id="paso4">
+            <h1 class="paso4 invisible" data-animate="animate__fadeInRight">Paso 4</h1>
+            <h2 class="subtituloPaso4 invisible" data-animate="animate__fadeInLeft">Mezclar los ingredientes</h2>
+            <img class="paso-imagen invisible" data-animate="animate__fadeInUp" src="assets/paso4.png"
+                alt="Olla con trozos de queso sobre tapa dulce derretida">
+            <p class="paso-texto invisible" data-animate="animate__fadeInUp">
+                Mezclar bien los ingredientes hasta que se forme una miel
+            </p>
+
+            <div class="botones-navegacion">
+                <a href="#paso3"><button class="boton-flecha-subir">&#8593;</button></a>
+                <a href="#resultado"><button class="boton-flecha">&#8595;</button></a>
+            </div>
+        </section>
+
+        <section id="resultado">
+            <h1 class="invisible" data-animate="animate__fadeInDown">Resultado final</h1>
+            <img class="resultado-img invisible" data-animate="animate__fadeInUp"
+                src="assets/PlatoConChicharronesDeQueso.png" alt="Plato con chicharrones de queso como resultado final">
+            <p class="resultado-texto invisible" data-animate="animate__fadeInUp">
+                Una vez completado estos pasos se tiene como resultado los chicharrones de queso
+            </p>
+
+            <div class="botones-navegacion">
+                <a href="#paso4"><button class="boton-flecha-subir">&#8593;</button></a>
+                <a href="#suscribirse"><button class="boton-flecha">&#8595;</button></a>
+            </div>
+        </section>
+
+        <section id="suscribirse">
+            <h1 class="invisible" data-animate="animate__fadeInLeft">Suscríbase</h1>
+            <h2 class="subtituloSuscribirse invisible" data-animate="animate__fadeInRight">
+                Ingrese sus datos para recibir nuevas recetas
+            </h2>
+
+            <form class="formulario invisible" data-animate="animate__fadeInUp">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <button type="submit" class="boton-suscribirse">Suscribirse</button>
+            </form>
+
+            <div class="botones-navegacion">
+                <a href="#resultado"><button class="boton-flecha-subir">&#8593;</button></a>
+            </div>
+        </section>
+
+        <div id="menu-lateral" class="menu-overlay">
+            <div class="menu-fondo"></div>
+            <div class="menu-contenido animate__animated" id="menuAnimado">
+                <div class="menu-top">
+                    <div class="logos">
+                        <img src="assets/pepe.png" alt="Logo de el pepe" />
+                        <img src="assets/buche.png" alt="Logo de el buche.com" />
+                    </div>
+                    <button class="cerrar-menu" onclick="cerrarMenu()">&#10006;</button>
+                </div>
+
+                <nav class="menu-links">
+                    <a href="#top" onclick="cerrarMenu()">Inicio</a>
+                    <a href="#descripcion" onclick="cerrarMenu()">Descripción</a>
+                    <a href="#ingredientes" onclick="cerrarMenu()">Ingredientes</a>
+                    <a href="#preparacion" onclick="cerrarMenu()">Paso 1</a>
+                    <a href="#paso2" onclick="cerrarMenu()">Paso 2</a>
+                    <a href="#paso3" onclick="cerrarMenu()">Paso 3</a>
+                    <a href="#paso4" onclick="cerrarMenu()">Paso 4</a>
+                    <a href="#resultado" onclick="cerrarMenu()">Resultado final</a>
+                    <a href="#suscribirse" onclick="cerrarMenu()">Suscribirse</a>
+                </nav>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <div id="modal" class="modal oculto">
+    <div class="modal-contenido">
+        <span class="cerrar-modal" onclick="cerrarModal()">&times;</span>
+        <p id="modal-mensaje"></p>
+    </div>
+</div>
+
+    <script src="logica.js"></script>
+</body>
+
+</html>
