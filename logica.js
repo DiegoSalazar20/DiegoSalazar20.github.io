@@ -42,7 +42,7 @@ document.querySelector('.formulario').addEventListener('submit', function (e) {
         correo: correo
     };
 
-    fetch('http://www.proyectomultimedios.somee.com/api/Usuario/Registrar', {
+    fetch('https://www.proyectomultimedios.somee.com/api/Usuario/Registrar', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
